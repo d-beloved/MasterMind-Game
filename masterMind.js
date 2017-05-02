@@ -29,20 +29,20 @@ function compareGuess() {
 			
 		}
 
-		alert()
+		console.log()
 	}
 
 }
 
 
-alert("welcome to MASTERMIND");
+console.log("welcome to MASTERMIND");
 var choice = prompt("Would you like to (p)lay, read the (i)nstructions, or (q)uit?").toLowerCase();
 
 if (choice === "p" || choice === "play") {
 	
 	playGame();
 
-	alert("I have generated a beginner sequence with four elements made up of: (r)ed,
+	console.log("I have generated a beginner sequence with four elements made up of: (r)ed,
 (g)reen, (b)lue, and (y)ellow. Use (q)uit at any time to end the game.");
 
 	var userGuess = prompt("What's your guess?...enter it without a comma").toLowerCase();
